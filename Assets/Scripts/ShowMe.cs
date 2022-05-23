@@ -7,26 +7,24 @@ using TMPro;
 public class ShowMe : MonoBehaviour
 {
     [SerializeField] Canvas showCanvas;
-    BookOfSinsState sinsState;
     [SerializeField] TextMeshProUGUI closeUpText;
-    [SerializeField] BookOfSinsState state;
+    [SerializeField] BookOfSinsState[] state;
     [SerializeField] int pageNumber = 1;
+    [SerializeField] int bookNumber = 0;
 
     // Start is called before the first frame update
     void Awake()
     {
         showCanvas.gameObject.SetActive(false);
-        closeUpText.text = state.ghostText[pageNumber];
+        closeUpText.text = state[bookNumber].ghostText[pageNumber];
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(pageNumber >= 1 && pageNumber != 4)
+        if(pageNumber >= 1 && pageNumber <= 3)
         {
-            closeUpText.text = state.ghostText[pageNumber];
-            NextPage();
-            PreviousPage();
+            closeUpText.text = state[bookNumber].ghostText[pageNumber];
         }
         else
         {
@@ -62,4 +60,12 @@ public class ShowMe : MonoBehaviour
         }
         
     }
+
+    public void HeavenAndHell()
+    {
+        if(bookNumber <= 3)
+        bookNumber++;
+
+    }
+
 }
