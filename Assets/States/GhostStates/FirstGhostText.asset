@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9938f972620a1743a73772f72348288, type: 3}
   m_Name: FirstGhostText
   m_EditorClassIdentifier: 
-  bookPage: 000000000100000002000000
   ghostText:
   - Ja nevim neco neco neco
-  - "N\u011Bjak\xFD v\xFDmluvn\xFD text"
-  - "Text \u010D\xEDslo 2"
-  - "Text \u010D\xEDslo 3"
-  ghostImage: {fileID: 0}
-  ghostAtributes: []
+  - 'Name: Johny Fogherty. Age of Death: 82
+
+
+    He is very generous person. In
+    his life he did many good things and never backed down before any challenge.'
+  - His father was Dan Fogherty. He was religious and wealthy man. After founding
+    hospital in New York city he moved to small town in Minessota.
+  - Johny is well known for his eccentrities such as founding st. Marie, the greatest
+    brothel in New York which was previously hospital founded by his father.
