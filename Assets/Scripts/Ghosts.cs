@@ -30,7 +30,7 @@ public class Ghosts : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(paperNumber <= 4)
+        if(paperNumber <= portraits.Length - 1)
         {
             sinPaper.text = sinPaperObject[paperNumber].sinText;
             ghostImage.sprite = portraits[ghostNumber].ghostPortraitImages;
@@ -54,7 +54,7 @@ public class Ghosts : MonoBehaviour
     public void Decicions()
     {
         
-        if(right >= 3)
+        if(right >= 5)
         {
             SceneManager.LoadScene(5);
         }
@@ -87,6 +87,14 @@ public class Ghosts : MonoBehaviour
         {
             wrong++;
         }
+        if(ghostNumber == 6)
+        {
+            wrong++;
+        }
+        if(ghostNumber == 7)
+        {
+            right++;
+        }
         
     }
     public void Hell()
@@ -110,6 +118,14 @@ public class Ghosts : MonoBehaviour
         if(ghostNumber == 5)
         {
             right++;
+        }
+        if(ghostNumber == 6)
+        {
+            right++;
+        }
+        if(ghostNumber == 7)
+        {
+            wrong++;
         }
     }
 }
