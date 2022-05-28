@@ -24,7 +24,7 @@ public void Quiter()
 
     {
         Application.Quit();
-        Debug.Log ("goodby");
+        Debug.Log ("goodbye");
     }
 public void Credits()
 
