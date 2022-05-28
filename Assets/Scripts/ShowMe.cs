@@ -67,7 +67,7 @@ public class ShowMe : MonoBehaviour
     public void HeavenAndHell()
     {
         
-        if(bookNumber <= state.Length -1)
+        if(bookNumber <= state.Length -2)
         {
             bookNumber++;
             pageNumber = 1;
