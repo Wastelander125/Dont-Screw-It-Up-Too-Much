@@ -6,10 +6,15 @@ using System;
 
 public class IntroMusic : MonoBehaviour
 {
-    private int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+    private int _currentSceneIndex;
+    private void Awake()
+    {
+        _currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+    }
+    
     void Update()
     {
-        if(currentSceneIndex == 1)
+        if(_currentSceneIndex == 1)
         {
             Destroy(GetComponent<AudioSource>());
         }
