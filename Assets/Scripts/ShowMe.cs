@@ -12,12 +12,16 @@ public class ShowMe : MonoBehaviour
     [SerializeField] int pageNumber = 1;
     [SerializeField] int bookNumber = 0;
     [SerializeField] int currentBookMaxPageNumbers = 0;
+    [SerializeField] Image bookImage;
+    [SerializeField] Sprite closedBook;
+    [SerializeField] Sprite openBook;
 
     // Start is called before the first frame update
     void Awake()
     {
         showCanvas.gameObject.SetActive(false);
         closeUpText.text = state[bookNumber].ghostText[pageNumber];
+        bookImage.sprite = closedBook;
         
     }
 
@@ -39,11 +43,13 @@ public class ShowMe : MonoBehaviour
     public void ShowBookPages()
     {
         showCanvas.gameObject.SetActive(true);
+        bookImage.sprite = openBook;
     }
 
     public void CloseBook()
     {
         showCanvas.gameObject.SetActive(false);
+        bookImage.sprite = closedBook;
     }
 
     public void NextPage()

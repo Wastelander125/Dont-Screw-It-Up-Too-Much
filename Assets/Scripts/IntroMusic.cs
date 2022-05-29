@@ -5,22 +5,18 @@ using UnityEngine.SceneManagement;
 using System;
 
 public class IntroMusic : MonoBehaviour
-
 {
-
- void Awake()
-{
- string currentSceneName = SceneManager.GetActiveScene().name;
-
-
-    if(currentSceneName == "Scene 1 (uvod)")
+    private int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+    void Update()
     {
-        Destroy(gameObject);
+        if(currentSceneIndex == 1)
+        {
+            Destroy(GetComponent<AudioSource>());
+        }
+        else
+        {
+            DontDestroyOnLoad(this.gameObject);
+        }
     }
-    else
-    {
-    DontDestroyOnLoad(gameObject);
-    }
-}
 
 }

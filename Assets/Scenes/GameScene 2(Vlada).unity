@@ -166,6 +166,9 @@ MonoBehaviour:
   pageNumber: 1
   bookNumber: 0
   currentBookMaxPageNumbers: 0
+  bookImage: {fileID: 1326709368}
+  closedBook: {fileID: 1723510013, guid: 57bbcc7f14d68a04090b406561d73715, type: 3}
+  openBook: {fileID: -1430134748, guid: 57bbcc7f14d68a04090b406561d73715, type: 3}
 --- !u!4 &178751754
 Transform:
   m_ObjectHideFlags: 0
@@ -1156,8 +1159,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ghost Text Ghost Text Ghost Text Ghost Text Ghost Text Ghost Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 45ebedcceee552b41a151c9c11340323, type: 2}
-  m_sharedMaterial: {fileID: 3854932274200120146, guid: 45ebedcceee552b41a151c9c11340323, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1846,8 +1849,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 45ebedcceee552b41a151c9c11340323, type: 2}
-  m_sharedMaterial: {fileID: 3854932274200120146, guid: 45ebedcceee552b41a151c9c11340323, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
