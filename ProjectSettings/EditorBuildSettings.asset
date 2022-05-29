@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LoseScene.unity
     guid: d9a74ab20c2508e4bb01f48f45d81eb4
+  - enabled: 1
+    path: Assets/Scenes/TimeOutScene.unity
+    guid: 994afde88f5e3164d8f90fd1a6ccd129
   m_configObjects: {}

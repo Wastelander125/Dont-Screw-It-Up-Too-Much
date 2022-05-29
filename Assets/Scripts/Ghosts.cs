@@ -16,7 +16,7 @@ public class Ghosts : MonoBehaviour
     [SerializeField] int numberOfGhosts = 10;
 
     public int ghostNumber;
-    public int actualGhostNumber = 0;
+    public static int actualGhostNumber = 0;
     [SerializeField] int paperNumber = 0;
     public static int right = 0;
     public static int wrong = 0;
