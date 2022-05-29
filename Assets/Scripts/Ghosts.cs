@@ -7,22 +7,27 @@ using UnityEngine.SceneManagement;
 
 public class Ghosts : MonoBehaviour
 {
-    [SerializeField] SpriteRenderer ghostImage;
+    [SerializeField] Image ghostImage;
     [SerializeField] TextMeshProUGUI sinPaper;
     [SerializeField] public GhostPortraits[] portraits;
 
     [SerializeField] SinPaperTextObject[] sinPaperObject;
     [SerializeField] Button confirmationButton;
+    [SerializeField] int numberOfGhosts = 10;
 
-    public int ghostNumber = 0;
+    public int ghostNumber;
+    public int actualGhostNumber = 0;
     [SerializeField] int paperNumber = 0;
-    [SerializeField] int right = 0;
-    [SerializeField] int wrong = 0;
+    public static int right = 0;
+    public static int wrong = 0;
 
+    [SerializeField] int counterRight = 0;
+    [SerializeField] int counterWrong = 0;
 
     // Start is called before the first frame update
     void Start()
     {
+        ghostNumber = Random.Range(0,5);
         sinPaper.text = sinPaperObject[paperNumber].sinText;
         ghostImage.sprite = portraits[ghostNumber].ghostPortraitImages;        
     }
@@ -30,7 +35,7 @@ public class Ghosts : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(paperNumber <= portraits.Length - 1)
+        if(paperNumber <= numberOfGhosts - 1)
         {
             sinPaper.text = sinPaperObject[paperNumber].sinText;
             ghostImage.sprite = portraits[ghostNumber].ghostPortraitImages;
@@ -45,16 +50,16 @@ public class Ghosts : MonoBehaviour
 
     public void GhostCycling()
     {
-        
-            ghostNumber++;
             paperNumber++;
+            actualGhostNumber++;
+            ghostNumber = Random.Range(0,5);
         
     }
 
     public void Decicions()
     {
         
-        if(right >= 5)
+        if(right > wrong)
         {
             SceneManager.LoadScene(5);
         }
@@ -67,65 +72,111 @@ public class Ghosts : MonoBehaviour
 
     public void Heaven()
     {
-        if(ghostNumber == 1)
+        if(actualGhostNumber == 1)
         {
             wrong++;
+            counterWrong++;
         }
-        if(ghostNumber == 2)
+        if(actualGhostNumber == 2)
         {
             right++;
+            counterRight++;
         }
-        if(ghostNumber == 3)
+        if(actualGhostNumber == 3)
         {
             right++;
+            counterRight++;
         }
-        if(ghostNumber == 4)
+        if(actualGhostNumber == 4)
         {
             wrong++;
+            counterWrong++;
         }
-        if(ghostNumber == 5)
+        if(actualGhostNumber == 5)
         {
             wrong++;
+            counterWrong++;
         }
-        if(ghostNumber == 6)
-        {
-            wrong++;
-        }
-        if(ghostNumber == 7)
+        if(actualGhostNumber == 6)
         {
             right++;
+            counterRight++;
+        }
+        if(actualGhostNumber == 7)
+        {
+            wrong++;
+            counterWrong++;
+        }
+        if(actualGhostNumber == 8)
+        {
+            right++;
+            counterRight++;
+        }
+        if(actualGhostNumber == 9)
+        {
+            wrong++;
+            counterWrong++;
+        }
+        if(actualGhostNumber == 10)
+        {
+            wrong++;
+            counterWrong++;
         }
         
     }
     public void Hell()
     {
-        if(ghostNumber == 1)
+        if(actualGhostNumber == 1)
         {
             right++;
+            counterRight++;
         }
-        if(ghostNumber == 2)
+        if(actualGhostNumber == 2)
         {
             wrong++;
+            counterWrong++;
         }
-        if(ghostNumber == 3)
+        if(actualGhostNumber == 3)
         {
             wrong++;
+            counterWrong++;
         }
-        if(ghostNumber == 4)
+        if(actualGhostNumber == 4)
         {
             right++;
+            counterRight++;
         }
-        if(ghostNumber == 5)
+        if(actualGhostNumber == 5)
         {
             right++;
+            counterRight++;
         }
-        if(ghostNumber == 6)
-        {
-            right++;
-        }
-        if(ghostNumber == 7)
+        if(actualGhostNumber == 6)
         {
             wrong++;
+            counterWrong++;
+        }
+        if(actualGhostNumber == 7)
+        {
+            right++;
+            counterRight++;
+        }
+        if(actualGhostNumber == 8)
+        {
+            wrong++;
+            counterWrong++;
+        }
+        if(actualGhostNumber == 9)
+        {
+            right++;
+            counterRight++;
+        }
+        if(actualGhostNumber == 10)
+        {
+            right++;
+            counterRight++;
         }
     }
+
+    
 }

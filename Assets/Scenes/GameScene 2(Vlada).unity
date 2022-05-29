@@ -123,6 +123,82 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &116328891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 116328894}
+  - component: {fileID: 116328893}
+  - component: {fileID: 116328892}
+  m_Layer: 5
+  m_Name: GhostsPictures
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &116328892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116328891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 380bc373267b8cf45a188fe80f694d7c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &116328893
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116328891}
+  m_CullTransparentMesh: 1
+--- !u!224 &116328894
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116328891}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2116725131}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -444.2791, y: 38.010498}
+  m_SizeDelta: {x: 271.0273, y: 369.2779}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &178751752
 GameObject:
   m_ObjectHideFlags: 0
@@ -163,6 +239,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ae6271383a5aca449b6452199546f004, type: 2}
   - {fileID: 11400000, guid: a3d36c31a80446d4ebbb40707a66ec1b, type: 2}
   - {fileID: 11400000, guid: 1de9b3412ec97964ab44ddbe8f446c26, type: 2}
+  - {fileID: 11400000, guid: f0ed263cb3edb5445a0cd57b6bb13e62, type: 2}
+  - {fileID: 11400000, guid: aa534e56e51290b47b368ebe8e636d21, type: 2}
+  - {fileID: 11400000, guid: f9ee3ecdc500fe84283b1f99e6eb0333, type: 2}
   pageNumber: 1
   bookNumber: 0
   currentBookMaxPageNumbers: 0
@@ -196,7 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd7f034bfb5ae184f907c4c95ef04bcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ghostImage: {fileID: 1449994081}
+  ghostImage: {fileID: 116328892}
   sinPaper: {fileID: 1203403454}
   portraits:
   - {fileID: 11400000, guid: 530f122a9c64a594a83b182bdd96ea48, type: 2}
@@ -204,8 +283,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fc1acc2f51d1aeb42aabad54d6662ebc, type: 2}
   - {fileID: 11400000, guid: 7394b5c16b8feda4b9193bde4bf633ae, type: 2}
   - {fileID: 11400000, guid: 12c0ced11cd9ad54b9966b884d074a84, type: 2}
-  - {fileID: 11400000, guid: e09a6f9697510be4da5bd4947c19c08a, type: 2}
-  - {fileID: 11400000, guid: 85d01fc9fe2c1ce4cb34b16fc29c7087, type: 2}
   sinPaperObject:
   - {fileID: 11400000, guid: c28c4bf3466763541a9e3fb6e5bd5af5, type: 2}
   - {fileID: 11400000, guid: 1703ff48eb7a2044aa07570127dd5aec, type: 2}
@@ -214,7 +291,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8a0421c5cf4a72d4ca00ac41ba18a534, type: 2}
   - {fileID: 11400000, guid: 68a3717688cfd7b4c949372b92696c55, type: 2}
   - {fileID: 11400000, guid: 6656c49586631044e9afb0dfa6298196, type: 2}
+  - {fileID: 11400000, guid: 30c1ca3a649eb144ca85aab4ffda059c, type: 2}
+  - {fileID: 11400000, guid: 3a313cbf3f9170947975a0e3292d488d, type: 2}
+  - {fileID: 11400000, guid: e5b6fc04ca79a2c439c1430cad131fa9, type: 2}
   confirmationButton: {fileID: 1861804224}
+  numberOfGhosts: 10
   ghostNumber: 0
   paperNumber: 0
   right: 0
@@ -2271,7 +2352,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 885969fe912474449acffeac91c58952, type: 3}
+  m_Sprite: {fileID: 1723510013, guid: 57bbcc7f14d68a04090b406561d73715, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3258,6 +3339,7 @@ RectTransform:
   - {fileID: 852127525}
   - {fileID: 1326709367}
   - {fileID: 987462619}
+  - {fileID: 116328894}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

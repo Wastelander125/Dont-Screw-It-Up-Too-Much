@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9938f972620a1743a73772f72348288, type: 3}
+  m_Name: GhostText 9
+  m_EditorClassIdentifier: 
+  ghostText:
+  - 
+  - "Dev\xE1t\xFD v\xFDmluvn\xFD text 1"
+  - "Dev\xE1t\xFD v\xFDmluvn\xFD text 2"
+  - "Dev\xE1t\xFD v\xFDmluvn\xFD text 3"
+  - "Dev\xE1t\xFD v\xFDmluvn\xFD text 4"
+  - "Dev\xE1t\xFD v\xFDmluvn\xFD text 5"
+  - "Dev\xE1t\xFD v\xFDmluvn\xFD text 6"
+  - "Dev\xE1t\xFD v\xFDmluvn\xFD text 7"
