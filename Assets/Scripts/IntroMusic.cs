@@ -9,11 +9,14 @@ public class IntroMusic : MonoBehaviour
     private int _currentSceneIndex;
     private void Awake()
     {
-        _currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        
     }
     
     void Update()
     {
+
+        _currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        
         if(_currentSceneIndex == 1)
         {
             Destroy(GetComponent<AudioSource>());
