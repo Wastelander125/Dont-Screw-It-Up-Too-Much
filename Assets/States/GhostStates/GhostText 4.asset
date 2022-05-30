@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9938f972620a1743a73772f72348288, type: 3}
+  m_Name: GhostText 4
+  m_EditorClassIdentifier: 
+  ghostText:
+  - 
+  - 'Eileen spent her childhood in prosperity in a house full of love. Her parents
+    cared for her and her brother and taught them kindness and charity. Eileen was
+    the dearest girl in town.
+
+'
+  - 'But her adulthood was tainted by a number of misfortunes. During her life, three
+    husbands died in a row. The worst part is that she hasn''t been with any of them
+    for more than three months.
+
+'
+  - But she suffered these sufferings bravely, and her in black dress became known
+    as the Black Widow.
+  - Before she met all the misfortunes, she managed to graduate from chemistry school
+    as the best student. As a final thesis she defended the topic "New methods of
+    KCN synthesis"
+  - After the death of her third husband, she took refuge in his beautiful villa,
+    which she inherited from him and lived alone in her black robe until her death.

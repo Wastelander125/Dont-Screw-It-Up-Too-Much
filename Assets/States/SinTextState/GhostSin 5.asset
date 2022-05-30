@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0272443ffd6774644a638d0f716cb022, type: 3}
+  m_Name: GhostSin 5
+  m_EditorClassIdentifier: 
+  sinText: 'Harry Beard
+
+    
+
+    Please don''t hold me back, I''ve suffered enough
+    on that front!
+
+    I did a lot of good. Surely you''ve heard of how I saved
+    a drowning boy!
+
+'

@@ -15,7 +15,9 @@ public class ShowMe : MonoBehaviour
     [SerializeField] Image bookImage;
     [SerializeField] Sprite closedBook;
     [SerializeField] Sprite openBook;
-
+    [SerializeField] Button openBookButton;
+    [SerializeField] Button closeBookButton;
+ 
     // Start is called before the first frame update
     void Awake()
     {
@@ -43,12 +45,16 @@ public class ShowMe : MonoBehaviour
     public void ShowBookPages()
     {
         showCanvas.gameObject.SetActive(true);
+        openBookButton.gameObject.SetActive(false);
+        closeBookButton.gameObject.SetActive(true);
         bookImage.sprite = openBook;
     }
 
     public void CloseBook()
     {
         showCanvas.gameObject.SetActive(false);
+        closeBookButton.gameObject.SetActive(false);
+        openBookButton.gameObject.SetActive(true);
         bookImage.sprite = closedBook;
     }
 

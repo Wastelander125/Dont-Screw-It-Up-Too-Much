@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9938f972620a1743a73772f72348288, type: 3}
+  m_Name: GhostText 3
+  m_EditorClassIdentifier: 
+  ghostText:
+  - 
+  - 'Buzz was born in San Francisco and as a child he loved astronauts and cowboys
+    the most. He had dreamed of an astronaut''s career all his life, but he had never
+    been able to meet the demanding conditions.
+
+'
+  - 'At the age of 18, he married Derry Yare, with whom he had 3 children.
+
+'
+  - But he barely recognized their childhood. It didn't take long for him to leave
+    the family. He never gave up on his dream, so he was unable to fulfill a family
+    life that would deprive him of his dream forever.
+  - 'Realizing that he would never become an astronaut, he decided to take refuge
+    on his friend Woody''s farm. There he discovered his unconventional talent. He
+    became a painter.
+
+    Room painter
+
+'
+  - As a room painter, he made enough money to reimburse his forgotten childrens
+    for their education. one of his sons eventually became an astronaut. Although
+    he didn't even know his father properly.

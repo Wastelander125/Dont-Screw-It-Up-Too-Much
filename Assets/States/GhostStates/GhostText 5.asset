@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9938f972620a1743a73772f72348288, type: 3}
+  m_Name: GhostText 5
+  m_EditorClassIdentifier: 
+  ghostText:
+  - 
+  - 'Harry had been a naughty boy since he was a child. He threw stones at cows,
+    lit dog tails, and ruffled the girls'' hair.
+
+'
+  - Nevertheless, he was once celebrated in his city. Ice collapsed under the local
+    mayor's son as he skated on the pond and could not get out of the icy water himself.
+    Harry happened to be close and pulled the boy out of the pond. Then he received
+    a great reward from mayor and could live as a baron for a long time.
+  - 'The accident became a great mystery. Many people asked why the ice did not carry
+    a little boy, but a burly man could run on it.
+
+'
+  - Harry never learned much from school and ended up as a salesman in a hardware
+    store. He was not very pleasant to anyone, so the business was not very successful.
+    but it was kind of enough for a living
+  - Especially his big saws sold well.

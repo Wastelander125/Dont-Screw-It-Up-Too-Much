@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9938f972620a1743a73772f72348288, type: 3}
+  m_Name: GhostText 1
+  m_EditorClassIdentifier: 
+  ghostText:
+  - Ja nevim neco neco neco
+  - 'Ben Jr. was born in 1925 to Ben Dover and Grace Dover. He spent his childhood
+    in the small town of Little Falls in the middle of Minnesota. When he was 12,
+    he moved with his parents to New York, where his father worked as a doctor and
+    guardian.
+
+'
+  - When he was thirteen, he helped a classmate who was being bullied by an older
+    boy. After all, they together started bullying that older boy. But you know,
+    eye for an eye ...
+  - From 1952 he began to get fabulously rich. He was nicknamed the Red Lantern Doctor.
+  - st. Marie Hospital in New York was an amazing hospital founded by Ben Dover in
+    1945. It's a shame what happened to it in 1951 ... Who ever heard of the hospital
+    becoming the largest brothel in the country?
+  - After high school, he successfully got into the NYU Long Island School of Medicine
+    and after graduation in 1950, he followed in his father's footsteps as a doctor.
+    It's a pity his father didn't live to see that day ...

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40857f17b1374df4794b61ab8822527e, type: 3}
   m_Name: Ghost 2
   m_EditorClassIdentifier: 
-  ghostPortraitImages: {fileID: 21300000, guid: f2537dec8f5f6b0419d44c7d5c4b2da3, type: 3}
+  ghostPortraitImages: {fileID: 21300000, guid: 7de9d2624654f7649947145304f2b1ad, type: 3}

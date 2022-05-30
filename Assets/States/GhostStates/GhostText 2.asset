@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9938f972620a1743a73772f72348288, type: 3}
+  m_Name: GhostText 2
+  m_EditorClassIdentifier: 
+  ghostText:
+  - 
+  - "Belle O'Donnaugh was a troubled child. She had been growing for a gallows since
+    birth, and in the church the pastor had forced her to kneel on a pea for all
+    the mischief she had done. She was from the city of Perth, which was known for
+    its fur farm and the oldest cat shelter in the country. The shelter was almost
+    canceled once, but thanks to an unknown contributor, the shelter was saved.\r"
+  - She once even committed the largest theft in the history of Perth. $ 5,000 disappeared
+    directly from Mr. Kurt Rapplai's diamond-inlaid wallet. A local well-known mink
+    fur trader.Nobody knows where the money will go. When Bella was caught, she didn't
+    even have a punch. She didn't even have buttons in her tattered clothes.
+  - 'She escaped from the police station and spent the next few years wandering around
+    Europe. finally landed in Romania.
+
+'
+  - 'On the way to Europe, she committed a number of crimes against the property
+    of great industrialists. For example, she robbed Mr. Carver Mupp of his precious
+    snow rabbits, from which he made such beautiful slippers! She is definitely a
+    problematic woman.
+
+'

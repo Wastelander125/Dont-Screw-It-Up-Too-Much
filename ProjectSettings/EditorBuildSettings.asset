@@ -21,9 +21,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene 4 (credits).unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: "Assets/Scenes/Provizorn\xEDWinScene.unity"
+    path: Assets/Scenes/WinScene.unity
     guid: adf94f6c787713f4d9bd034c31147b7e
   - enabled: 1
-    path: "Assets/Scenes/Provizorn\xEDLooseScene.unity"
+    path: Assets/Scenes/LoseScene.unity
     guid: d9a74ab20c2508e4bb01f48f45d81eb4
+  - enabled: 1
+    path: Assets/Scenes/TimeOutScene.unity
+    guid: 994afde88f5e3164d8f90fd1a6ccd129
   m_configObjects: {}

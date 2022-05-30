@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9938f972620a1743a73772f72348288, type: 3}
+  m_Name: GhostText 6
+  m_EditorClassIdentifier: 
+  ghostText:
+  - 
+  - 'Jess was old grumbling even as a child. He couldn''t smile at anyone and kept
+    away from everyone. He never helped anyone, but he didn''t hinder anyone.
+
+'
+  - 'He once stole a bird''s egg straight from the nest. But later he took care of
+    bird mother all winter. The winter was harsh then.
+
+'
+  - 'He lovingly cared for his house, which he inherited from his parents. But he
+    never invited anyone to him.
+
+'
+  - 'But one thing is fascinating about his life. As much as he did not like the
+    presence of people, so he loved the presence of his plants. His garden was full
+    of life. But which no one was allowed to see.
+
+'
+  - 'Anger and love in complete harmony.
+
+'
