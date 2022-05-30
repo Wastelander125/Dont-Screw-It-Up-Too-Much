@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class TimeOutText : MonoBehaviour
 {
@@ -23,5 +24,9 @@ public class TimeOutText : MonoBehaviour
         timeOutTextField.text = "Well I am back. Looks like you did not finish all ten people from the list. Lets have a look. You did " + rightNumber + " right choices and " + wrongNumber + " bad choices from total of " + completedTasks + " people";
     }
 
+    public void TimeOutMainMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
 
 }
