@@ -14,6 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ghostText:
   - 
-  - "\u010Ctvrt\xFD v\xFDmluvn\xFD text 1"
-  - "\u010Ctvrt\xFD v\xFDmluvn\xFD text 2"
-  - "\u010Ctvrt\xFD v\xFDmluvn\xFD text 3"
+  - 'Eileen spent her childhood in prosperity in a house full of love. Her parents
+    cared for her and her brother and taught them kindness and charity. Eileen was
+    the dearest girl in town.
+
+'
+  - 'But her adulthood was tainted by a number of misfortunes. During her life, three
+    husbands died in a row. The worst part is that she hasn''t been with any of them
+    for more than three months.
+
+'
+  - But she suffered these sufferings bravely, and her in black dress became known
+    as the Black Widow.
+  - Before she met all the misfortunes, she managed to graduate from chemistry school
+    as the best student. As a final thesis she defended the topic "New methods of
+    KCN synthesis"
+  - After the death of her third husband, she took refuge in his beautiful villa,
+    which she inherited from him and lived alone in her black robe until her death.

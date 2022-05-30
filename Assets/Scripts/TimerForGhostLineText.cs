@@ -8,7 +8,10 @@ public class TimerForGhostLineText : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI[] ghostsInLineTexts;
     [SerializeField] Image[] textBubbles;
-    string[] swearTexts = {"beep beep", "Hey what is going on", "Move on snail", "Oh where am I", "Oh no dead again", "Nevim", "Dalsi text", "Hey"};
+    string[] swearTexts = {"Beep beep", "Hey what's going on", "Move on snail!", "Oh, where am I", "Oh no dead again", "Ahh I see the stars", "It's like vacation with group of Germans", "Hey, watch out", "I am on the Highway to Hell...", 
+    "I'm buying Stairway to Heaven.","That does not look like Valhall", "Heh that guy thought he can kill me.. oh...", "So... the dogs that bark also bite? Damn!","Lesson learned... you surely cannot fly", "Smoke me a kipper, I'll be back for breakfast",
+    "Please... I'm electrician i know how to do it.", "This waiting is killing me", "Aaaarggghhhh...Oh, where is the battle and why it is so bright there?", "I shouldn't eat that mushroom", "Come here bear i don't bite",
+     "Maybe telling her she is fat was not good idea.", "When I give up I give up, shooting isn't necessary"};
     float nextActionTime;
     public float period = 2;
     int randomField;

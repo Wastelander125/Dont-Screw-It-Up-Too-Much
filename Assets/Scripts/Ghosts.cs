@@ -14,6 +14,8 @@ public class Ghosts : MonoBehaviour
     [SerializeField] SinPaperTextObject[] sinPaperObject;
     [SerializeField] Button confirmationButton;
     [SerializeField] int numberOfGhosts = 10;
+    [SerializeField] Button heavenButton;
+    [SerializeField] Button hellButton;
 
     public int ghostNumber;
     public static int actualGhostNumber = 0;
@@ -44,6 +46,8 @@ public class Ghosts : MonoBehaviour
         else
         {
             confirmationButton.gameObject.SetActive(true);
+            heavenButton.gameObject.SetActive(false);
+            hellButton.gameObject.SetActive(false);
             
         }
     }
@@ -59,7 +63,7 @@ public class Ghosts : MonoBehaviour
     public void Decicions()
     {
         
-        if(right > wrong)
+        if(right >= wrong)
         {
             SceneManager.LoadScene(5);
         }
