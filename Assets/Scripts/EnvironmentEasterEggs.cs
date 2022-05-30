@@ -21,6 +21,7 @@ public class EnvironmentEasterEggs : MonoBehaviour
     [SerializeField] Button blueIngotButtonPress;
     [SerializeField] Button goldIngotButtonPress;
     [SerializeField] Button copperIngotButtonPress;
+    [SerializeField] Image backgroundImage;
     
     public void CandleOneDown()
     {
@@ -113,5 +114,17 @@ public class EnvironmentEasterEggs : MonoBehaviour
         ingots[4].sprite = copperIngot;
         copperIngotButtonPress.gameObject.SetActive(false);
         blueIngotButtonPress.gameObject.SetActive(true);
+    }
+
+    private void Update() 
+    {
+        if(candleOneOff == true && candleTwoOff == true && candleThreeOff == true)
+        {
+            backgroundImage.gameObject.SetActive(false);
+        }
+        else
+        {
+            backgroundImage.gameObject.SetActive(true);
+        }
     }
 }

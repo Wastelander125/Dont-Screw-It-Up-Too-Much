@@ -14,10 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ghostText:
   - 
-  - "Dev\xE1t\xFD v\xFDmluvn\xFD text 1"
-  - "Dev\xE1t\xFD v\xFDmluvn\xFD text 2"
-  - "Dev\xE1t\xFD v\xFDmluvn\xFD text 3"
-  - "Dev\xE1t\xFD v\xFDmluvn\xFD text 4"
-  - "Dev\xE1t\xFD v\xFDmluvn\xFD text 5"
-  - "Dev\xE1t\xFD v\xFDmluvn\xFD text 6"
-  - "Dev\xE1t\xFD v\xFDmluvn\xFD text 7"
+  - "Netty was born into a tax collector's family. Like her father. She graduated
+    from economics school, but never made a living from finances. She retrained as
+    a nurse. \r\n"
+  - 'She then worked at a small hospital in Ohio. Her superiors described her as
+    the average nurse who did not deviate and performed her duties as she was told.
+    Always well recognizable by her red brooch.
+
+'
+  - 'Everyone who left the hospital spoke of Netty as a good nurse who cared for
+    them and didn''t let them suffer for a moment.
+
+'
+  - 'But there is one mystery associated with her service. Very valuable spare parts
+    have disappeared from a number of people who have died at the hospital. Just
+    at her time of service.
+
+'
+  - But it was nice of her that she gave these deaths a little red brooch for the
+    last trip.

@@ -65,11 +65,11 @@ public class Ghosts : MonoBehaviour
         
         if(right >= wrong)
         {
-            SceneManager.LoadScene(5);
+            SceneManager.LoadScene(4);
         }
         else
         {
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(5);
         }
     
     }
