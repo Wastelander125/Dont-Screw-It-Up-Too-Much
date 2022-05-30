@@ -60,7 +60,7 @@ public class ShowMe : MonoBehaviour
 
     public void NextPage()
     {
-        if(pageNumber <= currentBookMaxPageNumbers - 1)
+        if(pageNumber <= currentBookMaxPageNumbers - 2)
         {
             pageNumber++;
         }
